@@ -169,7 +169,12 @@ body {
 
 	.tweet-actions {
 		text-align: right;
+		opacity: 0;
 	}
+	.tweet:hover .tweet-actions {
+		opacity: 1;
+	}
+
 		.tweet-actions ul {
 			list-style-type: none;
 		}
